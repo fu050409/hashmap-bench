@@ -1,0 +1,17 @@
+[package]
+name = "hashmaps-bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5.1"
+hashbrown = "0.15.1"
+rustc-hash = "2.0.0"
+
+[[bench]]
+name = "insert"
+harness = false
+
+[[bench]]
+name = "query"
+harness = false
